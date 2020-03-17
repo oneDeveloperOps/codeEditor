@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <script>
+        const refresh = () => {
+            let html = document.getElementById('textArea').value;
+            let css = document.getElementById('textArea2').value;
+            let js = document.getElementById('textArea3').value;
+            let code = document.getElementById('output').srcdoc = html + '<style>' + css +'</style>'+ js ;
+        }
+    </script>
+</head>
+<body>
+    <textarea name="LiveCode" id="textArea" onkeyup="refresh()" cols="30" rows="10"></textarea>    
+    <textarea name="LiveCode1" id="textArea2" onkeyup="refresh()" cols="30" rows="10"></textarea> 
+    <textarea name="LiveCode2" id="textArea3" onkeyup="refresh()" cols="30" rows="10"><script></script></textarea> 
+    <iframe src="" id="output" frameborder="1"></iframe>
+</body>
+</html>
