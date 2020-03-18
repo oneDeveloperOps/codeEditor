@@ -1,3 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://devopseduo:51170228@designchef-mpyny.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://devopseduo:51170228@designchef-mpyny.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecretToken": "angryBirds",
+    "githubClientId":"527e0c454818ac3d5d09",
+    "githubSecretId": "311e68b79b106e4880c7c28429f11402086b560e"
 }
